@@ -1,0 +1,90 @@
+body{
+    background-color: #dff2fb;
+}
+.blogger{
+    margin-left: 10px;
+}
+
+#main-dashboard{
+    width: 100vw;
+    height: 50vh;
+    background-color: #d6f9fd;
+    color: rgb(27, 26, 25);
+    padding-top: 20px;
+}
+#main-dashboard .status .boxes{
+    padding-bottom: 15px;
+}
+#main-dashboard .status .box {
+    height: 150px;
+    padding: 10px;
+    color: rgb(211, 237, 240);
+    margin-bottom: 5px;    
+    border-radius: 10px;
+}
+#main-dashboard .status .box .dashAnchor a{
+    text-decoration: none;
+    color:whitesmoke;
+}
+#main-dashboard .status .box .dashAnchor a:hover{
+    text-decoration: none;
+    color:rgb(241, 211, 211);
+    font-style: italic;
+}
+#main-dashboard .status .box1 {
+    background-color: #2c2c50;
+}
+#main-dashboard .status .box2 {
+    background-color: #2c2c65;
+}
+#main-dashboard .status .box3 {
+    background-color: #2c2c80;
+}
+#main-dashboard .status .boxes .box4 {
+    background-color: #2c2c95;
+}
+#main-dashboard .status .box .ico{
+    margin-left: 20px;
+    font-size: 30px;
+}
+#main-dashboard .status .box .details{
+    margin-right: 20px;
+    font-size: 20px;
+}
+
+/* Users styling*/
+#management{
+    width: 100vw;
+    height: 80vh;
+    background-color: #d6f9fd;
+    color: rgb(27, 26, 25);
+    padding-top: 20px;
+    border: 1px solid white;
+}
+ .c-body{
+    height: 400px;
+    overflow: scroll;
+}
+#management .main-card{
+    position: relative;
+}
+/* User card styling*/
+#management #detailCard{
+    position: absolute;
+    top:40px;
+    left: 470px;
+    border: 6px solid #198754;
+    border-radius: 15px;
+    /*display: none;*/
+}
+#management .detcard{
+    background-image: linear-gradient(to right, rgb(206, 243, 250), rgb(31, 204, 235));
+    border: 5px solid #0d6efd;
+    border-radius: 10px;
+}
+#detailCard #eachOne{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    color: #0c5c35;
+    font-style: oblique;
+}
